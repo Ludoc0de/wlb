@@ -1,8 +1,8 @@
 const Stripe = require("stripe");
 const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 
-const YOUR_DOMAIN = "http://localhost:3000/";
-// const YOUR_DOMAIN = "https://aoseller.cyclic.app/";
+// const YOUR_DOMAIN = "http://localhost:3000/";
+const YOUR_DOMAIN = "https://wlb.onrender.com/";
 
 module.exports = {
   // memoryPayment: async (req, res) => {
