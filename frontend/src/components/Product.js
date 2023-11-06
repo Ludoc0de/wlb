@@ -9,7 +9,7 @@ export default function Product() {
       <div className="hero-content text-left text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-6xl font-bold gold-wlb font-raleway">WLB</h1>
-          <p className="mb-10 text-3xl font-satisfy font-bold">
+          <p className="mb-10 text-3xl font-satisfy font-bold text-white">
             Women luxury beauty
           </p>
           {/* <form action="/create-checkout-session" method="POST"> */}
