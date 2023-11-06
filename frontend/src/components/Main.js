@@ -11,7 +11,7 @@ const Message = ({ message }) => (
     <div className="hero-content text-left text-neutral-content">
       <div className="max-w-md">
         <h1 className="mb-5 text-6xl font-bold gold-wlb font-raleway">WLB</h1>
-        <p className="mb-10 text-3xl font-satisfy">{message}</p>
+        <p className="mb-10 text-3xl font-satisfy text-white">{message}</p>
         <li className="gold-wlb list-none">
           <a href="/">Accueil</a>
         </li>
