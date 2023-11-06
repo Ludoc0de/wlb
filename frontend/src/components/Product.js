@@ -1,7 +1,7 @@
 export default function Product() {
   return (
     <section
-      className="hero min-h-screen flex py-80 md:py-40 pl-4"
+      className="hero min-h-screen flex py-80 md:py-40 pl-0"
       style={{
         backgroundImage: "url(/wlb131.jpeg)",
       }}
@@ -9,7 +9,7 @@ export default function Product() {
       <div className="hero-content text-left text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-6xl font-bold gold-wlb font-raleway">WLB</h1>
-          <p className="mb-10 text-3xl font-satisfy font-bold text-white">
+          <p className="mb-10 text-4xl font-satisfy text-gray-100">
             Women luxury beauty
           </p>
           {/* <form action="/create-checkout-session" method="POST"> */}
