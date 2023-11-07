@@ -18,7 +18,7 @@ export default function Product() {
               type="submit"
               className="btn btn-outline btn-warning py-4 px-8 font-satisfy"
             >
-              Accompte
+              Acompte
             </button>
           </form>
         </div>
