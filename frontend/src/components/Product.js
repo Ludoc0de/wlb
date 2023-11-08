@@ -10,7 +10,6 @@ export default function Product() {
         <div className="max-w-md">
           <h1 className="mb-5 text-6xl font-bold gold-wlb font-dm">WLB</h1>
           <p className="mb-10 text-4xl text-gray-100">Women luxury beauty</p>
-          {/* <form action="/create-checkout-session" method="POST"> */}
           <form action="/api/checkout" method="POST">
             <button
               type="submit"
