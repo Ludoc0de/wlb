@@ -14,5 +14,6 @@ body {
   font-family: Roboto;
 }
 .gold-wlb {
-  color: #ffd700;
+  /* color: #e8da90; */
+  background-color: #e8da90;
 }
