@@ -4,12 +4,13 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      dm: ["DM"],
+      roboto: ["Roboto"],
+      playfair: ["Playfair"],
     },
   },
   plugins: [require("daisyui")],
   // daisyUI config (optional)
   daisyui: {
-    themes: ["dark"],
+    themes: ["black"],
   },
 };
