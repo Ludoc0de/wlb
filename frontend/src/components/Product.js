@@ -1,12 +1,12 @@
 export default function Product() {
   return (
     <section
-      className="hero flex py-80 md:py-44 pl-4"
+      className="hero min-h-screen flex py-80 md:py-44 pl-4"
       style={{
-        backgroundImage: "url(/header.jpeg)",
+        backgroundImage: "url(/header.jpg)",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right center",
-        backgroundSize: "50%",
+        backgroundSize: "cover",
       }}
     >
       <div className="hero-content text-left text-neutral-content">
@@ -17,7 +17,10 @@ export default function Product() {
             de Rémire Montjoly.
           </p>
           <form action="/api/checkout" method="POST">
-            <button type="submit" className="btn btn-lg gold-wlb text-black">
+            <button
+              type="submit"
+              className="btn btn-lg gold-wlb text-black uppercase"
+            >
               Acompte
             </button>
           </form>
