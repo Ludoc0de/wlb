@@ -1,13 +1,14 @@
 export default function Product() {
+  const headerImg = {
+    backgroundImage: "url(/header.jpg)",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "right center",
+    backgroundSize: window.innerWidth <= 480 ? "contain" : "cover",
+  };
   return (
     <section
       className="hero min-h-screen flex py-80 md:py-44 pl-4"
-      style={{
-        backgroundImage: "url(/header.jpg)",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "right center",
-        backgroundSize: "cover",
-      }}
+      style={headerImg}
     >
       <div className="hero-content text-left text-neutral-content">
         <div className="max-w-md">
