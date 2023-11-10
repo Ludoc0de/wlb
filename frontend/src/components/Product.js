@@ -3,10 +3,10 @@ export default function Product() {
     <section
       className="hero min-h-screen flex py-80 md:py-40 pl-0 rounded-l-lg"
       style={{
-        backgroundImage: "url(/wlbHero1.jpeg)",
+        backgroundImage: "url(/wlbHero1.jpg)",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right center",
-        backgroundSize: "50% 50%",
+        backgroundSize: "100% 60%",
       }}
     >
       <div className="hero-content text-left text-neutral-content">
@@ -21,7 +21,7 @@ export default function Product() {
           <form action="/api/checkout" method="POST">
             <button
               type="submit"
-              className="btn bg-yellow-500 text-gray-100 py-4 px-8 font-bold font-satisfy"
+              className="btn bg-yellow-500 text-gray-800 py-4 px-8 font-bold font-satisfy"
             >
               Acompte
             </button>
