@@ -1,12 +1,12 @@
 export default function Product() {
   return (
     <section
-      className="hero min-h-screen flex py-80 md:py-40 pl-0 rounded-l-lg"
+      className="hero min-h-screen flex py-80 md:py-40 pl-4"
       style={{
         backgroundImage: "url(/wlbHero1.jpg)",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right center",
-        backgroundSize: "100% 60%",
+        backgroundSize: "100% 100%",
       }}
     >
       <div className="hero-content text-left text-neutral-content">
