@@ -3,7 +3,7 @@ export default function Product() {
     backgroundImage: "url(/header.jpg)",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "right center",
-    backgroundSize: window.innerWidth <= 480 ? "150% 100%" : "cover",
+    backgroundSize: window.innerWidth <= 480 ? "160% 100%" : "cover",
   };
   return (
     <section className="hero min-h-screen flex pl-4" style={headerImg}>
