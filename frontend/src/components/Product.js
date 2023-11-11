@@ -17,7 +17,7 @@ export default function Product() {
           <form action="/api/checkout" method="POST">
             <button
               type="submit"
-              className="btn btn-lg gold-wlb text-white uppercase"
+              className="btn btn-lg gold-wlb text-white font-light uppercase border-opacity-0"
             >
               Acompte
             </button>
