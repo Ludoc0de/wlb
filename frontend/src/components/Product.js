@@ -6,7 +6,7 @@ export default function Product() {
     backgroundSize: window.innerWidth <= 480 ? "180% 100%" : "cover",
   };
   return (
-    <section className="hero min-h-screen flex pl-4" style={headerImg}>
+    <section className="hero flex min-h-screen pl-4" style={headerImg}>
       <div className="hero-content text-left text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-6xl text-gray-100">Women luxury beauty</h1>
@@ -17,7 +17,7 @@ export default function Product() {
           <form action="/api/checkout" method="POST">
             <button
               type="submit"
-              className="btn btn-lg gold-wlb text-white font-light uppercase border-opacity-0"
+              className="gold-wlb btn btn-lg border-opacity-0 font-light uppercase text-white"
             >
               Acompte
             </button>
