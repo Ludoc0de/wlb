@@ -9,16 +9,13 @@ export default function Product() {
     <section className="hero flex min-h-screen pl-4" style={headerImg}>
       <div className="hero-content text-left text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-6xl text-gray-100">Women luxury beauty</h1>
-          <p className="mb-10 text-xl text-gray-100">
+          <h1 className="mb-5 text-6xl">Women luxury beauty</h1>
+          <p className="mb-10 text-xl">
             Studio d’extension de cils et de rehaussement de cils situé au cœur
             de Rémire Montjoly.
           </p>
           <form action="/api/checkout" method="POST">
-            <button
-              type="submit"
-              className="gold-wlb btn btn-lg border-opacity-0 font-light uppercase text-white"
-            >
+            <button type="submit" className="btn btn-lg bg-gold uppercase">
               Acompte
             </button>
           </form>

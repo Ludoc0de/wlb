@@ -5,14 +5,17 @@ const Message = ({ message }) => (
   <section
     className="hero flex min-h-screen py-80 pl-4 md:py-40"
     style={{
-      backgroundImage: "url(/wlb121.jpeg)",
+      backgroundImage: "url(/header.jpg)",
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "right center",
+      backgroundSize: window.innerWidth <= 480 ? "180% 100%" : "cover",
     }}
   >
     <div className="hero-content text-left text-neutral-content">
       <div className="max-w-md">
-        <h1 className="gold-wlb font-raleway mb-5 text-6xl font-bold">WLB</h1>
-        <p className="font-satisfy mb-10 text-4xl text-gray-100">{message}</p>
-        <li className="gold-wlb list-none">
+        <h1 className="mb-5 text-6xl">Women luxury beauty</h1>
+        <p className="font-satisfy mb-10 text-4xl">{message}</p>
+        <li className="list-none text-xl font-light uppercase text-gold">
           <a href="/">Accueil</a>
         </li>
       </div>
@@ -32,7 +35,9 @@ export default function Main() {
     }
 
     if (query.get("canceled")) {
-      setMessage("Accompte annulée - revenez lorsque vous serez prêt.");
+      setMessage(
+        "Votre commande est annulée - revenez lorsque vous serez prêt.",
+      );
     }
   }, []);
 
