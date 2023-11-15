@@ -6,18 +6,18 @@ export default function Product() {
     backgroundSize: window.innerWidth <= 480 ? "180% 100%" : "cover",
   };
   return (
-    <section className="hero min-h-screen flex pl-4" style={headerImg}>
+    <section className="hero flex min-h-screen pl-4" style={headerImg}>
       <div className="hero-content text-left text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-6xl  text-gray-100">Women luxury beauty</h1>
-          <p className="mb-10 text-xl text-gray-100">
+          <h1 className="mb-5 text-6xl">Women luxury beauty</h1>
+          <p className="mb-10 text-xl ">
             Studio d’extension de cils et de rehaussement de cils situé au cœur
             de Rémire Montjoly.
           </p>
           <form action="/api/checkout" method="POST">
             <button
               type="submit"
-              className="btn btn-lg gold-wlb text-white font-light uppercase border-opacity-0"
+              className="btn btn-lg bg-[#c99d36] uppercase  text-black hover:bg-white hover:text-[#c99d36]"
             >
               Acompte
             </button>
