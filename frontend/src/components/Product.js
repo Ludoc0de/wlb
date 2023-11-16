@@ -1,6 +1,6 @@
 export default function Product() {
   const headerImg = {
-    backgroundImage: "url(/header.jpg)",
+    backgroundImage: "url(/header01.jpg)",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "right center",
     backgroundSize: window.innerWidth <= 480 ? "180% 100%" : "cover",

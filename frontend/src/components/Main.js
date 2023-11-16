@@ -5,7 +5,7 @@ const Message = ({ message }) => (
   <section
     className="hero flex min-h-screen py-80 pl-4 md:py-40"
     style={{
-      backgroundImage: "url(/header.jpg)",
+      backgroundImage: "url(/header01.jpg)",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "right center",
       backgroundSize: window.innerWidth <= 480 ? "180% 100%" : "cover",
