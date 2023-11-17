@@ -16,3 +16,7 @@ body {
 /* .gold-wlb {
   background-color: #c99d36;
 } */
+
+.btn:hover .line {
+  fill: #c99d36;
+}
