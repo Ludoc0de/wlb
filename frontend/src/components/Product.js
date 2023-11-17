@@ -19,6 +19,15 @@ export default function Product() {
               type="submit"
               className="btn btn-lg bg-[#c99d36] uppercase  text-black hover:bg-white hover:text-[#c99d36]"
             >
+              <svg
+                width="50"
+                height="4"
+                viewBox="0 0 50 4"
+                fill="none"
+                className="hover:black"
+              >
+                <rect width="50" height="4" rx="5" fill="white" />
+              </svg>
               Acompte
             </button>
           </form>
