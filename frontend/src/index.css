@@ -17,6 +17,6 @@ body {
   background-color: #c99d36;
 } */
 
-rect:hover {
-  fill: #da4567;
+.btn:hover .line {
+  fill: #c99d36;
 }
