@@ -9,7 +9,7 @@ export default function Product() {
     <section className="hero flex min-h-screen pl-4" style={headerImg}>
       <div className="hero-content text-left text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-6xl">Women luxury beauty</h1>
+          <h1 className="mb-5 text-6xl">Eyelashes beauty</h1>
           <p className="mb-10 text-xl ">
             Studio d’extension de cils et de rehaussement de cils situé au cœur
             de Rémire Montjoly.

@@ -13,7 +13,7 @@ const Message = ({ message }) => (
   >
     <div className="hero-content text-left text-neutral-content">
       <div className="max-w-md">
-        <h1 className="mb-5 text-6xl">Women luxury beauty</h1>
+        <h1 className="mb-5 text-6xl">Eyelashes beauty</h1>
         <p className="font-satisfy mb-10 text-4xl">{message}</p>
         <li className="list-none text-xl font-light uppercase text-[#c99d36] hover:text-white">
           <a href="/">Accueil</a>
