@@ -3,13 +3,8 @@ import Product from "./Product";
 
 const Message = ({ message }) => (
   <section
-    className="hero flex min-h-screen py-80 pl-4 md:py-40"
-    style={{
-      backgroundImage: "url(/header01.jpg)",
-      backgroundRepeat: "no-repeat",
-      backgroundPosition: "right center",
-      backgroundSize: window.innerWidth <= 480 ? "180% 100%" : "cover",
-    }}
+    className="hero flex min-h-screen bg-right bg-no-repeat py-80 pl-4 max-sm:bg-[length:300%_100%] md:py-40"
+    style={{ backgroundImage: "url(/header011.jpg)" }}
   >
     <div className="hero-content text-left text-neutral-content">
       <div className="max-w-md">
@@ -31,12 +26,12 @@ export default function Main() {
     const query = new URLSearchParams(window.location.search);
 
     if (query.get("success")) {
-      setMessage("Nous vous remercions! Votre réservation est confirmé");
+      setMessage("Nous vous remercions! Votre acompte est confirmé");
     }
 
     if (query.get("canceled")) {
       setMessage(
-        "Votre commande est annulée - revenez lorsque vous serez prêt.",
+        "Votre acompte est annulée - revenez lorsque vous serez prêt.",
       );
     }
   }, []);
