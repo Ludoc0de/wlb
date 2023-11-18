@@ -1,12 +1,18 @@
 export default function Product() {
-  const headerImg = {
-    backgroundImage: "url(/header011.jpg)",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "right center",
-    backgroundSize: window.innerWidth <= 480 ? "180% 100%" : "cover",
-  };
+  // const headerImg = {
+  //   backgroundImage: "url(/header011.jpg)",
+  //   backgroundRepeat: "no-repeat",
+  //   backgroundPosition: "right center",
+  //   backgroundSize: "cover",
+  //   backgroundSize: window.innerWidth <= 480 ? "180% 100%" : "cover",
+  // };
+
   return (
-    <section className="hero flex min-h-screen pl-4" style={headerImg}>
+    <section
+      className="hero flex min-h-screen bg-right bg-no-repeat pl-4 max-sm:bg-[length:300%_100%]"
+      style={{ backgroundImage: "url(/header011.jpg)" }}
+      // style={headerImg}
+    >
       <div className="hero-content text-left text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-6xl">Eyelashes beauty</h1>
